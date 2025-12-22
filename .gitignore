@@ -3,3 +3,6 @@ NSCHData/
 SeverityData/
 CleanedData(Char)/
 CleanedData(Num)/
+AssessMissingness/CleanedAge(Num)
+AssessMissingness/CleanedNA(Num)
+AssessMissingness/CleanedNACovar(Num)
