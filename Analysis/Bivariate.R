@@ -55,3 +55,8 @@ fit_glm(top_2020, 2020)
 fit_glm(top_2021, 2021)
 fit_glm(top_2022, 2022)
 fit_glm(top_2023, 2023)
+
+#  References used for code:
+#  1. Odds Ratios for Logsitic Reg: https://numiqo.com/tutorial/odds-ratio-logistic-regression
+#  2. CI for OR: https://stats.stackexchange.com/questions/304833/how-to-calculate-odds-ratio-and-95-confidence-interval-for-logistic-regression#:~:text=%E2%80%A2%20exp(1.4345)%E2%89%884.20%20%E2%80%A2%20exp(1.4345+1.96%C3%970.5346)%E2%89%8811.97%20%E2%80%A2%20exp(1.4345%E2%88%921.96%C3%970.5346)%E2%89%881.472%20In,qnorm(c(0.025%2C0.5%2C0.975))%20*%20summary(m)$coefficients%5B%22DSH%22%2C2%5D)%20%5B1%5D%201.472098%204.197368%2011.967884
+#  3. OR and OR_CI: https://www.statology.org/r-logistic-regression-odds-ratio/
